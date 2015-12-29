@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="200dip" >
+
+    <com.itheima45.zhbj.view.HorizontalScrollViewPager
+        android:id="@+id/hsvp_tab_detail_top_news"
+        android:layout_width="fill_parent"
+        android:layout_height="200dip" >
+    </com.itheima45.zhbj.view.HorizontalScrollViewPager>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#33000000"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/tv_tab_detail_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="图片默认的描述信息"
+            android:textColor="#FFFFFF" />
+
+        <LinearLayout
+            android:id="@+id/ll_tab_detail_point_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.itheima45.zhbj.view.RefreshListView
+        android:id="@+id/rlv_tab_detail_list_news"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:fadingEdge="none" >
+    </com.itheima45.zhbj.view.RefreshListView>
+
+</LinearLayout>
